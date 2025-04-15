@@ -1,0 +1,57 @@
+# Node
+node_modules/
+dist/
+.vite/
+.env.local
+.env
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# System / IDE
+.DS_Store
+*.swp
+*.swo
+*.log
+.vscode/
+.idea/
+*.bak
+
+# OS-level trash
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+
+# Backend env and output
+backend/.env
+backend/.env.local
+backend/__pycache__/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/chat_log.json
+backend/projects/
+
+# Optional: project notes or logs
+*.log
+*.sqlite
+*.db
+
