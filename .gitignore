@@ -49,6 +49,7 @@ backend/.pytest_cache/
 backend/.coverage
 backend/chat_log.json
 backend/projects/
+backend/chat_*
 
 # Optional: project notes or logs
 *.log
